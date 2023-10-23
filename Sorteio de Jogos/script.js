@@ -1726,7 +1726,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function iniciarTransicao() {
     intervalId = setInterval(function () {
       const numeroAleatorio = Math.floor(Math.random() * imagens.length);
-      imagemSorteada.src = `../box2dfront/${imagens[numeroAleatorio]}`;
+      imagemSorteada.src = `./box2dfront/${imagens[numeroAleatorio]}`;
       imagemSorteada.style.display = "inline-block";
     }, 100);
   }
